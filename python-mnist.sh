@@ -11,3 +11,4 @@ wget --recursive --level=1 --cut-dirs=3 --no-host-directories \
 pushd data
 gunzip *
 popd
+pip install python-mnist
